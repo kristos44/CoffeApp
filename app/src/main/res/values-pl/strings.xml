@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">JustJava</string>
+    <string name="to_much_coffees">Nie możesz zamówić więcej niż 100 kaw!</string>
+    <string name="to_less_coffees">Musisz zamówić przynajmniej jedną kawę!</string>
+    <string name="name">Imię</string>
+    <string name="toppings">Dresingi</string>
+    <string name="whipped_cream">Bita śmietana</string>
+    <string name="chocolate">Czekolada</string>
+    <string name="quantity">Ilość</string>
+    <string name="order">Zamów</string>
+    <string name="order_summary" translatable="false">
+        Imię: <xliff:g id="name">%s</xliff:g> \n
+        Czy dodać bitą śmietanę: <xliff:g id="hasWhippedCream">%b</xliff:g> \n
+        Czy dodać czekoladę: <xliff:g id="hasChocolate">%b</xliff:g> \n
+        Ilość: <xliff:g id="quantity">%d</xliff:g> \n
+        W sumie: <xliff:g id="total">%s</xliff:g> \n
+        Dziękujemy!</string>
+</resources>
